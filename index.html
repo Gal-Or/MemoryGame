@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel= "stylesheet" href="./style.css">
+    </head>
+    <body>
+        <div class="title">
+    <h1>Memory Game</h1>
+        <span class="txt-rotate" data-period="2000"
+            data-rotate='[ "Koral Nataf", "Gal Or", "Enjoy!" ]'></span>
+            </div>
+            
+        <div id="players" style="display: none">
+            <div id="p1">
+                <h2></h2>
+                <h3></h3>
+            </div>
+            <div id="p2">
+                <h2></h2>
+                <h3></h3>
+            </div>
+        </div>
+
+        <div class="content">  
+        <div class="player_wrapper">
+            <div id="player1">
+                <!-- <h2>Player 1:</h2> -->
+                <form>
+                    <input type="text" name="name" class="question" id="nme1" required autocomplete="off" />
+                    <label for="nme"><span>Player 1</span></label>
+                </form>            
+            </div>
+        
+            <div id="player2">
+                <!-- <h2>Player 2:</h2> -->
+                <form>
+                    <input type="text" name="name" class="question" id="nme2" required autocomplete="off" />
+                    <label for="nme"><span>Player 2</span></label>
+                </form>
+
+            </div>
+        </div>
+        <div class="board_info">
+                <h2>board size:</h2>
+                <select name="board_size" id="board_size">
+                <option value="4x4">4x4</option>
+                <option value="5x5">5x5</option>
+                </select>
+        </div>
+        
+        <button onclick="initGame()" type="button" class="slide">
+            <div>Let's Play >></div>
+            <i class="icon-arrow-right"></i>
+        </button>
+        <!-- <input type="button" form="form1" value="Let's Play!" onclick="initGame()"></input> -->
+        </div>
+            <div class="game">
+    </div>
+
+    </body>
+        <script src="./title.js"></script>
+
+    <script src="./myJs.js"></script>
+</html>
