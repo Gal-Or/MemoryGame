@@ -1,5 +1,5 @@
 # MemoryGame
-Exercise 2 in the Internet Technologies course.
+The second Exercise in the Internet Technologies course.
 This project involves html, CSS, JS programming, reading and writing from JSON file and animations.
 
 ## Description
